@@ -1,0 +1,101 @@
+body {
+    background-image: url('./bg.png'); /* Replace with your finance-themed background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f0f0f0;
+}
+
+.outer-container {
+    width: 100%;
+    height: 100vh; /* 100% viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./bg.png'); /* Specify the path to your background image */
+    background-size: cover; /* Scale the image to cover the container */
+    background-position: center; /* Center the image within the container */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+}
+
+
+/* Style for the centered container */
+.centered-container {
+    width: 300px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-control {
+    background-color: #f9f9f9;
+    border: none;
+    border-bottom: 2px solid #6c757d;
+    border-radius: 0;
+}
+
+.btn-primary {
+    background-color: #63a69f;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #4c8a83;
+}
+
+/* Custom styles for finance-related icons */
+.finance-icon {
+    font-size: 36px;
+    color: #63a69f;
+    margin-top: 10px;
+}
+
+.form-floating-height {
+    height: 4.5rem;
+}
+
+.form-floating-line-height {
+    line-height: 1.25;
+}
+
+.form-floating-padding-x {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.form-floating-padding-y {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.form-floating-input-padding-t {
+    padding-top: 1.625rem;
+}
+
+.form-floating-input-padding-b {
+    padding-bottom: 0.625rem;
+}
+
+.form-floating-label-height {
+    height: 1.5em;
+}
+
+.form-floating-label-opacity {
+    opacity: 0.65;
+}
+
+.form-floating-label-transform {
+    transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}
+
+.form-floating-label-disabled-color {
+    color: #888;
+}
+
+.form-floating-transition {
+    transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+
